@@ -1,0 +1,97 @@
+DistributionPage:
+   dec: 新房分销页面元素定位
+   locators:
+      title:
+         name: 定位新房分销标题
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv
+      back_btn:
+         name: 定位返回图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_common_title_tv_left
+      search_edit:
+         name: 定位搜索框
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_retail_list_edt_search
+#      list:
+#         name: 定位列表
+#         type: id_text
+      list:
+         name: 定位"列表"
+         type: id_index
+         loc: com.jufuns.effectsoftware:id/act_retail_list_result_recycler_view
+      item_build_name:
+         name: 定位item的楼盘名称
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_retail_list_rv_info_tv_name
+      share_text:
+         name: 定位分享
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_retail_list_rv_info_tv_share
+      report_text:
+         name: 定位报备
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_retail_list_rv_info_tv_report
+      report_btn:
+         name: 定位报备按钮
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_retail_list_tv_report
+
+
+      # 搜索页
+#      search_icon:
+#         name: 定位搜索图标
+#         type: id
+#         loc: com.jufuns.effectsoftware:id/act_house_search_iv_search
+#      search_clear:
+#         name: 定位清除图标
+#         type: id
+#         loc: com.jufuns.effectsoftware:id/act_house_search_iv_clear
+#      search_cancel:
+#         name: 定位取消按钮
+#         type: id
+#         loc: com.jufuns.effectsoftware:id/act_home_search_tv_cancel
+      search_edt:
+         name: 定位搜索输入框
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_retail_list_edt_search
+      result_empty:
+         name: 定位查询结果为空提示语
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_page_status_empty_tv
+      result_name:
+         name: 定位搜索列表中的item楼盘名称
+         type: id
+         loc: com.jufuns.effectsoftware:id/layout_retail_list_rv_info_tv_name
+#      history_text:
+#         name: 定位历史搜索文本
+#         type: id
+#         loc: com.jufuns.effectsoftware:id/layout_search_page_history_tv_title
+#      history_keyword:
+#         name: 定位历史关键字
+#         type: id
+#         loc: com.jufuns.effectsoftware:id/layout_search_history_hot_tv
+#      history_clear:
+#         name: 定位清空
+#         type: id
+#         loc: com.jufuns.effectsoftware:id/layout_search_page_history_tv_clear
+
+      # 楼盘详情页
+      back_icon:
+         name: 定位详情页返回图标
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_retail_detail_title_tv_left
+      detail_build_name:
+         name: 定位"楼盘名"
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_retail_detail_house_info_tv_name
+      detail_share_btn:
+         name: 定位详情页的分享按钮
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_retail_detail_ll_share
+      detail_report_btn:
+         name: 定位详情页底部的报备客户按钮
+         type: id
+         loc: com.jufuns.effectsoftware:id/act_retail_detail_ll_report
+
+
